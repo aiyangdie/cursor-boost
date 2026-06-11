@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Cursor Boost 文档
+    url: https://github.com/aiyangdie/cursor-boost#readme
+    about: 使用前请先阅读 README
+  - name: 报错反馈（推荐）
+    url: https://github.com/aiyangdie/cursor-boost/issues/new?template=cursor-error.yml
+    about: 提交 Cursor 报错，共建问题库

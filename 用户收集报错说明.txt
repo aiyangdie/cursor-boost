@@ -1,0 +1,28 @@
+兄弟们，Cursor 报错请这样发我（不要拍照，要截图）：
+
+【必发三样】
+1. 报错弹窗截图 — 要清晰，Request ID 要完整露出来
+2. 点 CursorBoost →「导出诊断包」→ 把桌面上的 zip 发我
+3. 一句话：当时在干嘛、突然怎么了
+
+【截图示例】
+✓ Too many free trials 整窗 + Copy Request 那一行
+✓ You've hit your usage limit 整窗
+✓ Agent Execution Timed Out / Internal Error
+✓ SSH Connection timed out / Failed to connect
+✗ 手机拍屏幕、糊成一团的不收
+
+【我能一键修的】（不用你懂技术）
+- SSH 端口错、密码登录、/root 工作区
+- hooks 坏了、设置写错、缓存卡死
+- 锁文件 EPERM、闪退窗口跑屏幕外
+- 网络 HTTP2 断连（热修复，多数不用重启）
+
+【我没法绕过的】（要说实话）
+- Too many free trials（本机试用太多，只能 Pro 或找官方）
+- usage limit（账号额度用完，等重置或 Pro）
+- 这类只能正规途径，工具会告诉你怎么做
+
+【更新问题库】
+你发我的每一个新报错，我都会写进 issues.json，
+下个版本大家点一下就能修。

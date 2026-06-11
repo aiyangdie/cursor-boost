@@ -1,0 +1,46 @@
+name: Cursor 报错反馈
+description: 提交 Cursor 报错，共建问题库
+title: "[报错] "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请先在本机用 **Cursor Boost → 导出诊断包**，把 zip 发到 Issue 评论或网盘链接。
+  - type: textarea
+    id: description
+    attributes:
+      label: 当时在做什么？突然怎样了？
+      placeholder: 例如：Agent 回复到一半断线，弹出 usage limit
+    validations:
+      required: true
+  - type: input
+    id: request_id
+    attributes:
+      label: Request ID（报错弹窗里 Copy Request）
+      placeholder: xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+  - type: dropdown
+    id: category
+    attributes:
+      label: 问题类型
+      options:
+        - 账号 / 试用 / 额度
+        - 网络 / 云端断连
+        - SSH 远程
+        - 卡顿 / 缓存 / 数据库
+        - Agent / 扩展
+        - 闪退 / 无法启动
+        - 其他
+  - type: textarea
+    id: error_text
+    attributes:
+      label: 报错原文（或粘贴 error-excerpts.log 片段）
+      render: shell
+  - type: checkboxes
+    id: attachments
+    attributes:
+      label: 我已附上
+      options:
+        - label: 清晰截图（含完整 Request ID）
+        - label: CursorReport-*.zip 诊断包
+        - label: github-issue-body.md（工具自动生成）

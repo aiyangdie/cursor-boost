@@ -1,0 +1,35 @@
+# Build
+build/
+dist/
+*.spec
+__pycache__/
+*.pyc
+
+# Local backups & secrets
+backup/
+*.bak
+ssh-config.template
+!ssh-config.template.example
+
+# User runtime data (generated on each machine)
+# Actual path: %LOCALAPPDATA%\CursorBoost\
+
+# Large binaries (upload via GitHub Releases manually)
+releases/*.exe
+releases/*.msi
+CursorBoost.exe
+
+# Logs & temp
+build-log.txt
+*.log
+.cursor/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Never commit tokens
+.env
+*.pat
+*token*
+*secret*

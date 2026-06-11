@@ -1,0 +1,19 @@
+# Cursor Remote SSH - password login template
+# Copy to ~/.ssh/config and edit Host entries for your servers
+
+Host *
+  ServerAliveInterval 60
+  ServerAliveCountMax 5
+  TCPKeepAlive yes
+  ConnectTimeout 120
+  StrictHostKeyChecking accept-new
+  PasswordAuthentication yes
+  KbdInteractiveAuthentication yes
+  PubkeyAuthentication yes
+  PreferredAuthentications keyboard-interactive,password,publickey
+  NumberOfPasswordPrompts 5
+
+Host my-server
+  HostName 192.0.2.1
+  User root
+  Port 22
