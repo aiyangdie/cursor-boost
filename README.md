@@ -1,3 +1,5 @@
+<p align="center"><img src="assets/covers/27-cursor-boost.jpg" alt="cursor-boost 项目封面" width="100%"></p>
+
 <p align="center">
   <img src="https://img.shields.io/badge/Cursor-Boost-6366f1?style=for-the-badge" alt="Cursor Boost"/>
   <img src="https://img.shields.io/badge/platform-Windows-0078d4?style=for-the-badge" alt="Windows"/>
